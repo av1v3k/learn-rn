@@ -14,6 +14,10 @@ git commit --amend --reset-author
 
 git push
 
+# What happened to babel.config.js in expo: 52.0.41 + react-native: 0.76.7 ?
+
+??
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
