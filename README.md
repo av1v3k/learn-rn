@@ -4,6 +4,16 @@ Learn:
 
 npx create-expo-app@latest .
 
+# email being private issue ? - Follow this...
+
+https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
+
+git config --global user.email 1721339+av1v3k@users.noreply.github.com
+
+git commit --amend --reset-author
+
+git push
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
