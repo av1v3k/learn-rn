@@ -4,7 +4,7 @@ Learn:
 
 npx create-expo-app@latest .
 
-# email being private issue ? - Follow this...
+# Email being private issue ? - Follow this...
 
 https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
 
