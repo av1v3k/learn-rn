@@ -44,6 +44,12 @@ Do you want to move existing files to /app-example instead of deleting them? (Y/
 
 ## Kept reset-project.js file as backup in /scripts/reset-project.js
 
+## Below is the difference in components of Android, RN, Swift.
+
+![alt text](rn_swift_android.png)
+
+=============================================================================================================================================
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
