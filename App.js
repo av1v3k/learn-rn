@@ -10,9 +10,27 @@ export default function App() {
       }}
     >
       <View
-        style={{ backgroundColor: "#FFFFFF", width: 200, height: 200 }}
-      ></View>
-      <View style={{ backgroundColor: "teal", width: 200, height: 200 }}></View>
+        style={{
+          backgroundColor: "#FFFFFF",
+          width: 200,
+          height: 200,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Text style={{ color: "#000" }}>Hello</Text>
+      </View>
+      <View
+        style={{
+          backgroundColor: "teal",
+          width: 200,
+          height: 200,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Text style={{ color: "#ACC" }}>world</Text>
+      </View>
     </View>
   );
 }

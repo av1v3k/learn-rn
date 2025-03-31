@@ -7,3 +7,4 @@ npx create-expo-app@latest . --template blank
 # Core-Components
 
 1. View
+2. Text
