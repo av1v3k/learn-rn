@@ -9,3 +9,4 @@ npx create-expo-app@latest . --template blank
 1. View
 2. Text
 3. Image
+4. ScrollView

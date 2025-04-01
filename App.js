@@ -1,4 +1,4 @@
-import { View, Text, Image, ImageBackground } from "react-native";
+import { View, Text, Image, ImageBackground, ScrollView } from "react-native";
 const logoImg = require("./assets/adaptive-icon.png");
 const logoImg2 = "https://picsum.photos/200";
 
@@ -12,21 +12,35 @@ export default function App() {
         // alignItems: "center",
       }}
     >
-      {/* <Image source={logoImg} style={{ width: 200, height: 200 }} />
-      <Image source={{ uri: logoImg2 }} style={{ width: 200, height: 200 }} /> */}
-      <ImageBackground
-        source={logoImg}
-        style={{
-          // backgroundColor: "green",
-          justifyContent: "center",
-          alignItems: "center",
-          flex: 1,
-        }}
-      >
-        <Text>Hello</Text>
-      </ImageBackground>
+      <ScrollView>
+        <Image source={logoImg} style={{ width: 200, height: 200 }} />
+        <Text>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </Text>
 
-      {/* <View
+        <Image source={logoImg} style={{ width: 200, height: 200 }} />
+        <Text>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </Text>
+        <Image source={logoImg} style={{ width: 200, height: 200 }} />
+
+        {/* <View
         style={{
           backgroundColor: "#FFFFFF",
           width: 200,
@@ -48,6 +62,7 @@ export default function App() {
       >
         <Text style={{ color: "#ACC" }}>world</Text>
       </View> */}
+      </ScrollView>
     </View>
   );
 }
