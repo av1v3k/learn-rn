@@ -13,3 +13,4 @@ npx create-expo-app@latest . --template blank
 5. Button
 6. Pressable
 7. Modal - props - visible, animationType, presentationStyle="pageSheet" Only works in iOS;
+8. StatusBar - props - barStyle={"dark-content"}, hidden, etc,..
