@@ -1,4 +1,4 @@
-import { View, StatusBar, Button } from "react-native";
+import { View, StatusBar, Button, ActivityIndicator } from "react-native";
 import { useState } from "react";
 const logoImg = require("./assets/adaptive-icon.png");
 const logoImg2 = "https://picsum.photos/200";
@@ -9,7 +9,7 @@ export default function App() {
   return (
     <View
       style={{
-        backgroundColor: "plum",
+        backgroundColor: "white",
         flex: 1,
         padding: 40,
       }}
@@ -19,6 +19,9 @@ export default function App() {
         title="Toggle Bar"
         onPress={() => setStatusBarVisible(!isStatusBarVisible)}
       ></Button>
+      <ActivityIndicator size={"large"} color={"red"} />
+      <ActivityIndicator size={"small"} />
+      <ActivityIndicator size={"small"} animating={false} />
     </View>
   );
 }
