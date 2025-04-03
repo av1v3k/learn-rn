@@ -1,4 +1,4 @@
-import { View, StatusBar, Button, ActivityIndicator } from "react-native";
+import { View, StatusBar, Button, Alert } from "react-native";
 import { useState } from "react";
 const logoImg = require("./assets/adaptive-icon.png");
 const logoImg2 = "https://picsum.photos/200";
@@ -14,14 +14,29 @@ export default function App() {
         padding: 40,
       }}
     >
-      <StatusBar hidden={isStatusBarVisible} barStyle={"dark-content"} />
       <Button
         title="Toggle Bar"
-        onPress={() => setStatusBarVisible(!isStatusBarVisible)}
+        onPress={() => {
+          setStatusBarVisible(!isStatusBarVisible);
+          Alert.alert("Caution", "It is not updated.", [
+            {
+              text: "Cancel",
+              style: "cancel",
+              onPress: () => {
+                console.log("cancelled");
+              },
+            },
+            {
+              text: "Ok",
+              isPreferred: true,
+              style: "destructive",
+              onPress: () => {
+                console.log("Accepted");
+              },
+            },
+          ]);
+        }}
       ></Button>
-      <ActivityIndicator size={"large"} color={"red"} />
-      <ActivityIndicator size={"small"} />
-      <ActivityIndicator size={"small"} animating={false} />
     </View>
   );
 }
