@@ -15,3 +15,4 @@ npx create-expo-app@latest . --template blank
 7. Modal - props - visible, animationType, presentationStyle="pageSheet" Only works in iOS;
 8. StatusBar - props - barStyle={"dark-content"}, hidden, etc,..
 9. ActivityIndicator - props: animating, color, size
+10. Alert
