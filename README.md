@@ -17,3 +17,4 @@ npx create-expo-app@latest . --template blank
 9. ActivityIndicator - props: animating, color, size
 10. Alert
 11. Custom Component
+12. Styling component - Inline, StyleSheet API
