@@ -16,3 +16,4 @@ npx create-expo-app@latest . --template blank
 8. StatusBar - props - barStyle={"dark-content"}, hidden, etc,..
 9. ActivityIndicator - props: animating, color, size
 10. Alert
+11. Custom Component
