@@ -18,3 +18,4 @@ npx create-expo-app@latest . --template blank
 10. Alert
 11. Custom Component
 12. Styling component - Inline, StyleSheet API, Multiple Styles
+13. Box model - paddingHorizontal, marginVertical, borderStyle, borderTopWidth, borderColor, borderRadius[works for <Text> comp in Android, but not in iOS; <View>'s borderRadius works for both platforms]
