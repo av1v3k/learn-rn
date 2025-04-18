@@ -3,10 +3,24 @@ import { View, StyleSheet, Text } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <View style={[styles.box, styles.lightBlueBg]}>
-        <Text style={{ borderRadius: 43, backgroundColor: "red" }}>Hello</Text>
+      <View
+        style={[
+          styles.box,
+          styles.lightBlueBg,
+          styles.boxShadow,
+          styles.androidShadow,
+        ]}
+      >
+        <Text>Hello</Text>
       </View>
-      <View style={[styles.box, styles.lightGreenBg]}>
+      <View
+        style={[
+          styles.box,
+          styles.lightGreenBg,
+          styles.boxShadow,
+          styles.androidShadow,
+        ]}
+      >
         <Text>Hello 2</Text>
       </View>
     </View>
@@ -25,16 +39,23 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 30,
     marginVertical: 10,
-    borderStyle: "dashed",
-    borderColor: "black",
-    borderTopWidth: 1,
-    borderBottomWidth: 1,
-    borderRadius: 22,
   },
   lightBlueBg: {
     backgroundColor: "lightblue",
   },
   lightGreenBg: {
     backgroundColor: "lightgreen",
+  },
+  boxShadow: {
+    shadowColor: "red",
+    shadowOpacity: 0.7,
+    shadowRadius: 4,
+    shadowOffset: {
+      width: 6,
+      height: 6,
+    },
+  },
+  androidShadow: {
+    elevation: 75,
   },
 });
