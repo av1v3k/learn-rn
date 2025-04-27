@@ -21,3 +21,4 @@ npx create-expo-app@latest . --template blank
     13. Box model - paddingHorizontal, marginVertical, borderStyle, borderTopWidth, borderColor, borderRadius[works for <Text> comp in Android, but not in iOS; <View>'s borderRadius works for both platforms]
     14: BoxShadow - shadowColor: Only prop works in both platforms; Other props will not work in android. So, use elevation prop.
     15. Inheritance: There is no inheritance from View to Text component. But, Text -> Text it would inherit.
+    17. Layouts with Flex - Opposite of Flex direction in web - Main Axis: Top to bottom; Cross Axis: Left to Right
