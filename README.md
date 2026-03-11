@@ -22,3 +22,5 @@ npx create-expo-app@latest . --template blank
     14: BoxShadow - shadowColor: Only prop works in both platforms; Other props will not work in android. So, use elevation prop.
     15. Inheritance: There is no inheritance from View to Text component. But, Text -> Text it would inherit.
     17. Layouts with Flex - Opposite of Flex direction in web - Main Axis: Top to bottom; Cross Axis: Left to Right
+                        - <View> Component is automatically a flex container.
+                        - as main axis is from top to bottom, "flex: 1" will fill the entire column(Top to bottom)
