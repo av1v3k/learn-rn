@@ -24,3 +24,6 @@ npx create-expo-app@latest . --template blank
     17. Layouts with Flex - Opposite of Flex direction in web - Main Axis: Top to bottom; Cross Axis: Left to Right
                         - <View> Component is automatically a flex container.
                         - as main axis is from top to bottom, "flex: 1" will fill the entire column(Top to bottom)
+                        - YT: 28: flexDirection - continue on it.... column, column-reverse, row, row-reverse
+                        - flex: 1, can be given for parent to occupy entire height as main axis runs from Top to bottom
+                        - by default all elements overflows when elements are more increase </Box> elements from all => 3
