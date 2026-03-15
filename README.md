@@ -27,3 +27,4 @@ npx create-expo-app@latest . --template blank
                         - YT: 28: flexDirection - continue on it.... column, column-reverse, row, row-reverse
                         - flex: 1, can be given for parent to occupy entire height as main axis runs from Top to bottom
                         - by default all elements overflows when elements are more increase </Box> elements from all => 3
+    29. justifyContent - possible values - center, flex-start, flex-end, space-between, space-evenly, space-around
