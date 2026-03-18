@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   container: {
     flexWrap: "wrap",
     alignContent: "flex-start",
-    rowGap: 20,
+    gap: 5,
     height: 300,
     marginTop: 40,
     borderWidth: 5,

@@ -36,4 +36,4 @@ npx create-expo-app@latest . --template blank
             - There must be minimum 2 or multiple row/column in the area.
             - if space-* must work, the child element must have width and height.
     34. gap - has 3 properties
-            - rowGap, columnGap, gap
+            - rowGap: 20, columnGap: 10, gap: 5
