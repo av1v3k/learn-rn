@@ -32,3 +32,6 @@ npx create-expo-app@latest . --template blank
     31. alignSelf - flex-start, flex-end, stretch, center, auto
                     - auto - takes parents elements alignItems property value.
     32. flexWrap - if less height in container and items needs to wrap without space.
+    33. alignContent -
+            - There must be minimum 2 or multiple row/column in the area.
+            - if space-* must work, the child element must have width and height.
