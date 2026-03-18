@@ -11,7 +11,7 @@ export default function App() {
       <Box style={{ backgroundColor: "blue", alignSelf: "flex-end" }}>
         Box 1{" "}
       </Box>
-      <Box style={{ backgroundColor: "teal" }}>Box 1 </Box>
+      <Box style={{ backgroundColor: "teal", alignSelf: "auto" }}>Box 1 </Box>
       {/* <Box style={{ backgroundColor: "#ab9156" }}> Box 1</Box>
       <Box style={{ backgroundColor: "#6b0803" }}> Box 1</Box>
       <Box style={{ backgroundColor: "#1c4c56" }}>Box 1 </Box>
@@ -23,6 +23,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: "center",
     marginTop: 40,
     borderWidth: 5,
     borderColor: "red",
