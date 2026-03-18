@@ -31,3 +31,4 @@ npx create-expo-app@latest . --template blank
     30. alignItems - Default is aligning the items from left to right.
     31. alignSelf - flex-start, flex-end, stretch, center, auto
                     - auto - takes parents elements alignItems property value.
+    32. flexWrap - if less height in container and items needs to wrap without space.
