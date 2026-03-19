@@ -37,3 +37,9 @@ npx create-expo-app@latest . --template blank
             - if space-* must work, the child element must have width and height.
     34. gap - has 3 properties
             - rowGap: 20, columnGap: 10, gap: 5
+    35. flexBasis - determines initial size of the flex item.
+                    - alternative to using height and width flex properties in flex layouts.
+                    - question: if flexbasis & height in another item, with flex:1 for each item, what will be the effect ?
+                    - ans: The flexBasis: 100 item will distribute the height proportionally.
+    36. flexShrink - determines how children along the main axis shrink along the main axis.
+                   - this property is relative to other items in the container.
