@@ -43,3 +43,4 @@ npx create-expo-app@latest . --template blank
                     - ans: The flexBasis: 100 item will distribute the height proportionally.
     36. flexShrink - determines how children along the main axis shrink along the main axis.
                    - this property is relative to other items in the container.
+    37. flexGrow - determines how the children along the main axis must grow inside the container for each individual item.
