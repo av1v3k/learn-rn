@@ -55,3 +55,4 @@ npx create-expo-app@latest . --template blank
     41.Dimensions API drawback - changing "orientation" property in app.json file to "default" makes the orientation change in actual Android Device.
                                 - But, there is a problem here. It doesn't look as responsive and the value doesn't dynamically change, though we have the logic in place. why ?
                                 - The code looks tidy & verbose, so use useWindowDimensions API.
+    42. useWindowDimensions

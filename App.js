@@ -1,21 +1,39 @@
-import { View, StyleSheet, Text, Dimensions } from "react-native";
-import Box from "./components/Box";
+import { View, StyleSheet, Text, useWindowDimensions } from "react-native";
 
 export default function App() {
+  const { width: windowWidth, height: windowHeight } = useWindowDimensions();
+
   return (
     <View style={styles.container}>
-      <View style={styles.box}>
-        <Text style={styles.text}>Welcome !</Text>
+      <View
+        style={[
+          styles.box,
+          {
+            width: windowWidth > 500 ? "60%" : "80%",
+            height: windowHeight > 600 ? "50%" : "70%",
+          },
+        ]}
+      >
+        <Text
+          style={[
+            styles.text,
+            {
+              fontSize: windowWidth > 500 ? 50 : 24,
+            },
+          ]}
+        >
+          Welcome !
+        </Text>
       </View>
     </View>
   );
 }
 
-const windowWidth = Dimensions.get("window").width;
-const windowHeight = Dimensions.get("window").height;
+// const windowWidth = Dimensions.get("window").width;
+// const windowHeight = Dimensions.get("window").height;
 
-console.log("window width: ", windowWidth);
-console.log("window height: ", windowHeight);
+// console.log("window width: ", windowWidth);
+// console.log("window height: ", windowHeight);
 
 const styles = StyleSheet.create({
   container: {
@@ -26,15 +44,15 @@ const styles = StyleSheet.create({
   },
   box: {
     // width: "70%",
-    width: windowWidth > 500 ? "60%" : "80%",
+    // width: windowWidth > 500 ? "60%" : "80%",
     // height: "40%",
-    height: windowHeight > 600 ? "50%" : "70%",
+    // height: windowHeight > 600 ? "50%" : "70%",
     backgroundColor: "teal",
     justifyContent: "center",
     alignItems: "center",
   },
   text: {
-    fontSize: windowWidth > 500 ? 50 : 24,
+    // fontSize: windowWidth > 500 ? 50 : 24,
     color: "#FFFFFF",
   },
 });
