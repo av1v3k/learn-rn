@@ -52,3 +52,5 @@ npx create-expo-app@latest . --template blank
     40. Dimensions API - API which is exposed by RN for getting the screen/window
                         - screen - including statusbar,
                         - window - visible area of the app
+    41.Dimensions API drawback - changing "orientation" property in app.json file to "default" makes the orientation change in actual Android Device.
+                                -

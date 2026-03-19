@@ -23,9 +23,9 @@ const styles = StyleSheet.create({
   },
   box: {
     // width: "70%",
-    width: windowWidth > 500 ? "70%" : "90%",
+    width: windowWidth > 500 ? "60%" : "80%",
     // height: "40%",
-    height: windowHeight > 600 ? "60%" : "90%",
+    height: windowHeight > 600 ? "50%" : "70%",
     backgroundColor: "teal",
     justifyContent: "center",
     alignItems: "center",
