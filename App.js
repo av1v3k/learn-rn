@@ -6,9 +6,14 @@ export default function App() {
     <View style={styles.container}>
       <Box style={{ backgroundColor: "grey" }}> Box 1</Box>
       <Box style={{ backgroundColor: "blue" }}>Box 1 </Box>
-      <Box style={{ backgroundColor: "teal" }}>Box 1 </Box>
-      <Box style={{ backgroundColor: "#ab9156" }}> Box 1</Box>
-      <Box style={{ backgroundColor: "#6b0803" }}> Box 1</Box>
+      <Box style={{ backgroundColor: "teal" }}>Box 1</Box>
+      <Box style={{ backgroundColor: "#ab9156", flexBasis: 150, flex: 1 }}>
+        Box 1
+      </Box>
+      <Box style={{ backgroundColor: "#6b0803", height: 150, flex: 1 }}>
+        {" "}
+        Box 1
+      </Box>
       <Box style={{ backgroundColor: "#1c4c56" }}>Box 1 </Box>
       <Box style={{ backgroundColor: "#b95f21" }}>Box 1 </Box>
     </View>
@@ -17,12 +22,10 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flexWrap: "wrap",
-    alignContent: "flex-start",
-    gap: 5,
-    height: 300,
+    flex: 1,
     marginTop: 40,
     borderWidth: 5,
     borderColor: "red",
+    borderStyle: "",
   },
 });
