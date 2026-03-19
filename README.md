@@ -46,3 +46,5 @@ npx create-expo-app@latest . --template blank
     37. flexGrow - determines how the children along the main axis must grow inside the container for each individual item.
                  - flex vs flexGrow - when flex is set, it is equivalent to setting flexGrow with same '+'ve number.
                  - This also sets flexShrink to 1, flexBasis to 0
+    38. Relative & absolute layout - Relative: it affects the normal layout of the box.
+                                   - absolute: it does not participate in the normal flow of the layout. It is laid out independently of its siblings.
