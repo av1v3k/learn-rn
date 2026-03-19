@@ -14,6 +14,9 @@ export default function App() {
 const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
 
+console.log("window width: ", windowWidth);
+console.log("window height: ", windowHeight);
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
