@@ -49,3 +49,6 @@ npx create-expo-app@latest . --template blank
     38. Relative & absolute layout - Relative: it affects the normal layout of the box.
                                    - absolute: it does not participate in the normal flow of the layout. It is laid out independently of its siblings.
     39. Dynamic User Interfaces - How will you make responsive to all phones and tablets ?
+    40. Dimensions API - API which is exposed by RN for getting the screen/window
+                        - screen - including statusbar,
+                        - window - visible area of the app
