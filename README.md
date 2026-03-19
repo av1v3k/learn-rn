@@ -48,3 +48,4 @@ npx create-expo-app@latest . --template blank
                  - This also sets flexShrink to 1, flexBasis to 0
     38. Relative & absolute layout - Relative: it affects the normal layout of the box.
                                    - absolute: it does not participate in the normal flow of the layout. It is laid out independently of its siblings.
+    39. Dynamic User Interfaces - How will you make responsive to all phones and tablets ?
