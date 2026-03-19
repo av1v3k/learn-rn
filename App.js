@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    fontSize: 40,
+    fontSize: windowWidth > 500 ? 50 : 24,
     color: "#FFFFFF",
   },
 });
