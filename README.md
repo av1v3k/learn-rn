@@ -28,3 +28,12 @@ npx create-expo-app@latest . --template blank
                         - flex: 1, can be given for parent to occupy entire height as main axis runs from Top to bottom
                         - by default all elements overflows when elements are more increase </Box> elements from all => 3
     29. justifyContent - possible values - center, flex-start, flex-end, space-between, space-evenly, space-around
+    30. alignItems - Default is aligning the items from left to right.
+    31. alignSelf - flex-start, flex-end, stretch, center, auto
+                    - auto - takes parents elements alignItems property value.
+    32. flexWrap - if less height in container and items needs to wrap without space.
+    33. alignContent -
+            - There must be minimum 2 or multiple row/column in the area.
+            - if space-* must work, the child element must have width and height.
+    34. gap - has 3 properties
+            - rowGap: 20, columnGap: 10, gap: 5
